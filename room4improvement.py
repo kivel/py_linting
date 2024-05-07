@@ -8,7 +8,7 @@ def capitalVariable(number):
     if number is None:
       raise TypeError
     print(f"got -> {number:>8} and it's type is {type(number)}")
-    
+
     print(
         "This is a very long line, and the linter should complain about the lenght of the line. It is now 125 chars long",
     )
@@ -29,4 +29,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()     
+    main()
