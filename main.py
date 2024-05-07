@@ -9,7 +9,10 @@ CEND = '\033[0m'
     
 
 def a_classic(example: int) -> None:
-    """Takes a number and returns the square."""  # noqa: D401
+    """Takes a number and returns the square.
+    This is broken _and_ dead code, it migth fall prey to the vultre.
+    But, Connor is the expert.
+    """  # noqa: D401
     exmaple = example**2
     return (example)
 
@@ -18,4 +21,3 @@ if __name__ == "__main__":
    	print(f"{CRED}This line has/had a TAB indentation.{CEND}")
    	r2d2()
    	print("-"*80)
-
