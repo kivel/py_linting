@@ -1,5 +1,4 @@
-#!/usr/bin/env python  # noqa: EXE001
-
+#!/usr/bin/env python
 
 from typing import Any
 
