@@ -1,0 +1,17 @@
+name: Main test
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: build
+    steps:
+    - uses: actions/checkout@v4
+    - name: Environment
+      run: env
+    - name: EchoSecret
+      run: |
+        echo ${{ secrets.HARBOR_USERNAME }}
+        echo ${{ secrets.HARBOR_PASSWORD }}
