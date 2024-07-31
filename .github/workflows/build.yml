@@ -13,5 +13,5 @@ jobs:
       run: env
     - name: EchoSecret
       run: |
-        echo ${{ secret.HARBOR_USERNAME }}
+        echo ${{ secrets.HARBOR_USERNAME }}
         echo ${{ secrets.HARBOR_PASSWORD }}
