@@ -8,7 +8,7 @@ jobs:
     environment:
       name: build
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Environment
       run: env
     - name: EchoSecret
